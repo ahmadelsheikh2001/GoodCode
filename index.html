@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="icon" href="images/OªTª.jpg">
+
+    <title>Good</title>
+</head>
+
+<body style="background-color: #7777;">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary  sticky-top " style="opacity:0.8">
+        <div class="container-fluid">
+            <input type="image" src="images/OªTª.jpg" class="me-3 rounded-circle" alt="pic" height="40px" width="40px">
+            <a class="navbar-brand text-light" href="#"
+                style="border-right:1px solid #ccc; padding-right: 10px; font-weight: bold;">Good</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Courses
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" target="_blank" href="">python</a></li>
+                            <li><a class="dropdown-item" target="_blank" href=""> java</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" target="_blank" href="">html</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="">css</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="">javascript</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="">bootstrap</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="">json</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-light">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex my-1">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light me-2" type="submit">Search</button>
+                </form>
+                <form class="d-flex my-1 ">
+                    <button class="btn btn-outline-light" type="button" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">Login</button>
+
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+        <!-- carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" >
+                    <img src="images/1.webp" class="d-block w-100" height="550px" alt="pic1">
+                    <div class="carousel-caption  rounded-4 "  style="background-color: rgba(54, 12, 241, 0.226);">
+                        <h1 >html</h1>
+                        <a href="" class="btn btn-danger" target="_blank">view this course</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/2.jpg" class="d-block w-100" height="550px" alt="pic2">
+                    <div class="carousel-caption  rounded-4"  style="background-color: rgba(54, 12, 241, 0.226);">
+                        <h1>css</h1>
+                        <a href="" class="btn btn-primary rounded-4" target="_blank">view this course</a>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="images/3.jpg" class="d-block w-100" height="550px" alt="pic3">
+                    <div class="carousel-caption  rounded-4 "  style="background-color: rgba(54, 12, 241, 0.226);">
+                        <h1>javascript</h1>
+                        <a href="" class="btn btn-success" target="_blank">view this course</a>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="images/4.jpg" class="d-block w-100" height="550px" alt="pic4">
+                    <div class="carousel-caption  rounded-4"  style="background-color: rgba(54, 12, 241, 0.226);">
+                        <h1>json</h1>
+                        <a href="" class="btn btn-secondary" target="_blank">view this course</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- /carousel -->
+        <!-- cards -->
+        <div class="card p-4 bg-dark text-white " style="border-top-left-radius: 0; border-top-right-radius:0 ;">
+            <div class="card-body">
+                <h2 class="card-title">Welcome</h2>
+                <p class="card-text">programming without language and without code.</p>
+                <a href="#" class="btn btn-primary mt-4">learn more</a>
+            </div>
+        </div>
+        <!-- /cards -->
+        <hr>
+        <!-- collapse Accordion-->
+        <h1 class="text-center text-light bg-secondary p-3 m-0 ">Programming language </h1>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button btn-outline-dark collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        python programming language
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Python is powerful... and fast, plays well with others,runs everywhere, is friendly & easy to
+                        learn, is
+                        Open. </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button  btn-outline-dark collapsed " type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                        aria-controls="collapseTwo">
+                        java programming language
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Java is a powerful general-purpose programming language. It is used to develop desktop and
+                        mobile
+                        applications, big data processing, embedded systems, and so on. According to Oracle, the company
+                        that
+                        owns Java, Java runs on 3 billion devices worldwide, which makes Java one of the most popular
+                        programming languages. </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed btn-outline-dark" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        javascript programming language
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        JavaScript is a scripting or programming language that allows you to implement complex features
+                        on web
+                        pages. </div>
+                </div>
+            </div>
+            <hr>
+
+        </div><!-- collapse Accordion-->
+        <!-- Python is very easy -->
+        <h1 class="text-center  text-light bg-secondary p-3 m-0 ">Python is very easy</h1>
+
+        <div class="card-body  bg-black text-white">
+            <H3 class="text-ligth ms-4 py-4 ">try the code below from
+                <a href="https://www.python.org/shell/" target="_blank">Here</a>
+            </H3>
+            <button type="button" class="btn btn-outline-primary  bttuon ms-5 " onclick="copyPaste('python')"><i
+                    class="fa fa-copy" aria-hidden="true"></i> Copy</button>
+            <pre><code class="text-info" id="python" style="    font-size: 18px !important;">
+                    name = input('enter your name: '); print("Hello" + name)</code>
+                </pre>
+        </div>
+        <hr><!-- Java is very easy -->
+        <h1 class="text-center  text-light bg-secondary p-3 m-0 ">Java is very easy</h1>
+        <div class="card-body  bg-black text-white">
+            <H3 class="text-ligth ms-4 py-4 ">try the code below from
+                <a href="https://www.python.org/shell/" target="_blank">Here</a>
+            </H3>
+            <button type="button" class="btn btn-outline-primary  bttuon ms-5 " onclick="copyPaste('Java')"><i
+                    class="fa fa-copy" aria-hidden="true"></i> Copy</button>
+            <pre><code class="text-info" id="Java" style="   font-size: 18px !important;">
+                System.out.println("Hello World!");
+</code>
+                </pre>
+        </div>
+        <hr><!-- Python is very easy -->
+        <h1 class="text-center  text-light bg-secondary p-3 m-0 ">Python is very easy</h1>
+
+        <div class="card-body  bg-black text-white">
+            <H3 class="text-ligth ms-4 py-4 ">try the code below from
+                <a href="https://www.python.org/shell/" target="_blank">Here</a>
+            </H3>
+            <button type="button" class="btn btn-outline-primary  bttuon ms-5 " onclick="copyPaste('python')"><i
+                    class="fa fa-copy" aria-hidden="true"></i> Copy</button>
+            <pre><code class="text-info" id="python" style="    font-size: 18px !important;">
+                    name = input('enter your name: '); print("Hello" + name)</code>
+                </pre>
+        </div>
+        <hr>
+        <div style="    background-image: url(./images/hs.jpg);     background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+"></div>
+        <!--  stert Good basic -->
+        <h2 class="text-center text-white m-4">Good basic</h2>
+        <div class="container-fluid">
+            <div class="row justify-content-around pb-4 " style="background-color: #555;">
+                <!-- html card -->
+                <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
+                    <a href="" target="_blank">
+                        <img src="images/HTML.png" class="card-img-top" alt="html pic"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">HTML</h5>
+                        <p class="card-text">html from zero to hero.</p>
+                        <a href="" class="btn btn-primary">download the book</a>
+                    </div>
+                </div>
+                <!-- /html card -->
+                <!-- css card -->
+                <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
+                    <a href="" target="_blank">
+                        <img src="images/css.png" class="card-img-top" alt="css pic"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">CSS</h5>
+                        <p class="card-text">Css from zero to hero.</p>
+                        <a href="" class="btn btn-primary">download the book</a>
+                    </div>
+                </div>
+                <!-- /css card -->
+                <!-- js card -->
+                <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
+                    <a href="" target="_blank">
+                        <img src="images/JS.png" class="card-img-top" alt="css pic" height="265PX"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">JavaScript</h5>
+                        <p class="card-text">JavaScript from zero to hero.</p>
+                        <a href="" class="btn btn-primary">download the book</a>
+                    </div>
+                </div>
+                <!-- /JS card -->
+                <!-- java card -->
+                <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
+                    <a href="" target="_blank">
+                        <img src="images/java.webp" class="card-img-top" alt="css pic" height="265PX"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Java</h5>
+                        <p class="card-text">Java from zero to hero.</p>
+                        <a href="" class="btn btn-primary">download the book</a>
+                    </div>
+                </div>
+                <!-- /Java card -->
+                <!-- python card -->
+                <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
+                    <a href="" target="_blank">
+                        <img src="images/Python-Symbol.png" class="card-img-top" alt="css pic" height="265PX"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Python</h5>
+                        <p class="card-text">Python from zero to hero.</p>
+                        <a href="" class="btn btn-primary">download the book</a>
+                    </div>
+                </div>
+                <!-- /python card -->
+                <!-- Bootstrap card -->
+                <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
+                    <a href="" target="_blank">
+                        <img src="images/bootstrap.png" class="card-img-top" alt="css pic" height="265PX"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap</h5>
+                        <p class="card-text">Bootstrap from zero to hero.</p>
+                        <a href="" class="btn btn-primary">download the book</a>
+                    </div>
+                </div>
+                <!-- /Bootstrap card -->
+                <!-- Json card -->
+                <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
+                    <a href="" target="_blank">
+                        <img src="images/json-logo.png" class="card-img-top" alt="css pic" height="265PX"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Json</h5>
+                        <p class="card-text">Json from zero to hero.</p>
+                        <a href="" class="btn btn-primary">download the book</a>
+                    </div>
+                </div>
+                <!-- /Json card -->
+            </div>
+        </div>
+
+
+        <!-- End Good basic -->
+        <div style="    background-image: url(./images/images.jpg);     background-attachment: fixed;
+                    background-size: cover;
+                    height: 250px;
+                "></div>
+
+
+        <!-- Stert Thanks For-->
+        <h2 class="text-center text-white m-4">Thanks For
+        </h2>
+        <div class="container-fluid ">
+            <div class="row  justify-content-around   vmnd pb-5  mb-5 "
+                style="background-color:#555; align-items: center;  ">
+                <div class="col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
+
+                    <div class="card colasw">
+                        <img src="images/sdf.jpeg" style="height:18rem;" class="card-img-top" alt="...">
+                        <div class="card-body colas">
+                            <h5 class="card-title">ENG/Ahmad Elsheikh Ali </h5>
+
+                            <p class="card-text">Hello, I am Eng. Ahmed Al-Sheikh. I hope that you will like this site, and I look forward to continuous progress in the
+                            coming period, God willing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
+                    <div class="card colasw">
+                        <img src="images/35888.jpg" style="height:18rem;" class="card-img-top" alt="...">
+                        <div class="card-body colas">
+                            <h5 class="card-title">ENG/Ahmad Elsheikh Ali </h5>
+
+                            <p class="card-text">Hello, I am Eng. Ahmed Al-Sheikh. I hope that you will like this site, and I look forward to continuous progress in the
+                            coming period, God willing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
+
+                    <div class="card colasw">
+                        <img src="images/wer.jpeg" style="height:18rem;" class="card-img-top" alt="...">
+                        <div class="card-body colas">
+                            <h5 class="card-title">ENG/Ahmad Elsheikh Ali </h5>
+
+                            <p class="card-text">Hello, I am Eng. Ahmed Al-Sheikh. I hope that you will like this site, and I look forward to continuous progress in the
+                            coming period, God willing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- stert Join Us -->
+    <h2 class="text-center text-white m-4">Join Us
+    </h2>
+    <div class="row container  text-center justify-content-around m-auto mb-5">
+
+        <div class="card fgd col-lg-3 bg-black text-white col-md-4 col-sm-6 m-1 mt-5 ">
+            <div class="card-body">
+                <h2 class="text-center mt-2">whatsapp</h2>
+                <i class="fab fa-whatsapp fs-2 m-4" style=" display: block;"></i>
+                <a href="https://api.whatsapp.com/send?phone=+201024285083">Go To Link</a>
+            </div>
+
+
+
+        </div>
+        <div class="card  fgd bg-black text-white col-lg-3 col-md-4 col-sm-6 m-1 mt-5 ">
+            <div class="card-body">
+                <h2 class="text-center mt-2">Github</h2>
+                <i class="fab fa-github fs-2 m-4" style=" display: block;"></i>
+                <a href="https://github.com/ahmadelsheikh2001">Go To Link</a>
+            </div>
+
+
+
+        </div>
+        <div class="card fgd col-lg-3 bg-black text-white col-md-4 col-sm-6 m-1 mt-5">
+            <div class="card-body">
+                <h2 class="text-center mt-2">linkedin</h2>
+                <i class="fab fa-linkedin fs-2 m-4" aria-hidden="true" style=" display: block;"></i>
+                <a href="https://www.linkedin.com/in/ahmad-el-sheikh-ali-472ab9198">Go To Link</a>
+            </div>
+
+
+
+        </div>
+        <div class="card fgd col-lg-3 bg-black text-white col-md-4 col-sm-6 m-1 mt-5">
+            <div class="card-body">
+                <h2 class="text-center col-12  mt-2">Facebook</h2>
+                <i class="fab fa-facebook fs-2 m-4" style=" display: block;"></i>
+                <a href="https://www.facebook.com/people/Ahmad-El-Sheikh-Ali/100014384023244/">Go To Link</a>
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <!-- End Join Us -->
+
+
+
+    <!--stert Footer -->
+    <div class="col-12 bg-black text-white">
+        <div class="container row justify-content-around text-center  m-auto">
+            <div class="col-lg-3 col-md-4 col-sm-6 m-1 mt-5">
+                <hr class="body-top  my-3">
+                <i class="fab fa-facebook fs-3  "><span class="ms-3">Good Company</span></i>
+                <hr class="body-top  my-3">
+                <DIV>
+                    <p>Tel :01024285083</p>
+                    <p>Address : kafrElsheik EGYPT</p>
+                    <p>Fax : 000-000-000</p>
+                </DIV>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 m-1 mt-5 ">
+                <hr class="body-top my-3 ">
+                <i class="fab fa-facebook fs-3  "><span class="ms-3">Good Company</span></i>
+
+                <hr class="body-top  my-3">
+                <DIV class="row ">
+                    <a href="#" class="col-12 fs-5 ">Visit Us</a>
+                    <a href="#" class="col-12 fs-5 my-2">Take alook</a>
+                    <a href="#"><h6>Your health is more important</h6></a>
+                </DIV>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 m-1 mt-5">
+                <hr class="body-top my-3">
+                <i class="fab fa-facebook fs-3  "><span class="ms-3">Good Company</span></i>
+
+                <hr class="body-top  my-3">
+                <DIV>
+                    <p>Tel :01024285083</p>
+                    <p>Address : kafrElsheik EGYPT</p>
+                    <p>Fax : 000-000-000</p>
+                </DIV>
+            </div>
+        </div>
+        <hr>
+        <span class="text-center d-block text-whit py-3">Copyright © 2022 ENG/Ahmad El Sheikh, Good company.All rights </span>
+        
+    </div>
+    <!-- End Footer -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+
+
+</html>

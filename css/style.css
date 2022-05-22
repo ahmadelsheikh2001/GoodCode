@@ -1,0 +1,66 @@
+.accordion-button:hover {
+    color: white;
+    background-color: black;
+}
+
+.card-body {
+    position: relative;
+}
+
+.bttuon::before {
+    position: absolute;
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent lightblue transparent;
+    top: 105px;
+    left: 70px;
+    display: none;
+}
+
+.bttuon::after {
+    position: absolute;
+    content: " copy to clipboard";
+    height: 50px;
+    width: 120px;
+    background-color: lightblue;
+    top: 125px;
+    left: 30px;
+    color: black;
+    border-radius: 5px;
+    display: none;
+}
+
+.bttuon:active::after,
+.bttuon:active::before {
+    display: block !important;
+    transition: 10s;
+}
+
+.fgd {
+    box-shadow: 25px 25px #0876ff42;
+}
+
+/* .colasw{
+    position: relative;
+}
+.colas{
+position: absolute;
+background-color: aliceblue;
+content: "";
+top: 50%;
+}
+.colas:hover{
+
+    top: 100%;
+    z-index: 21;
+    transition: 2s;
+} */
+/* .vmnd{
+        display: flex;
+            flex-wrap: wrap;
+            align-items: center
+} */
+.colas {
+    background-color: #55555542;
+}
